@@ -2,6 +2,9 @@
 
 ######Automation of control plane certificate renewal######
 
+#Certificate Backup
+cp -r /etc/kubernetes/pki /etc/kubernetes/pki-backup-$(date +%Y%m%d)
+
 #Renew all certificates
 sudo kubeadm certs check-expiration
 sudo kubeadm certs renew all
