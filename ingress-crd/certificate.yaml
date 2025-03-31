@@ -1,0 +1,16 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: nginx-certificate
+  namespace: nginx
+spec:
+  secretName: nginx-tls
+  duration: 2160h
+  renewBefore: 360h
+  issuerRef:
+    name: dns01
+    kind: ClusterIssuer
+  dnsNames:
+    - "*.example.com"
+    - "example.com"
+
