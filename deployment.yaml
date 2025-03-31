@@ -1,5 +1,5 @@
 apiVersion: apps/v1
-kind: Deployment
+ind: Deployment
 metadata:
   name: deploy-nginx
   namespace: nginx
