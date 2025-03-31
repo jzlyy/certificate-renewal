@@ -1,0 +1,8 @@
+apiVersion: metallb.io/v1beta1
+kind: IPAddressPool
+metadata:
+  name: metallb-ip
+  namespace: metallb
+spec:
+  addresses:
+    - xx-xx     #可用IP地址范围
