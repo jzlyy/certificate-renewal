@@ -6,4 +6,9 @@ metadata:
 spec:
   ipAddressPools:
     - metallb-ip
+  interfaces:
+  - YOUR_INTERFACES
+  nodeSelectors:
+  - matchLabels:
+      metallb.io/node: ENTRANCE_NODE
 
