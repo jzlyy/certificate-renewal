@@ -14,7 +14,7 @@ Control plane and application-layer certificate renewal (with auto-issuance of I
 - Ingress-Nginx---Certificate CRD---Ingress CRD
 
 **Outcome Realization**
-- Web---Ingress-Nginx--Ingress CRD---Service(Cluster)---Pod
+- Web---Ingress-Nginx--Ingress CRD---Service(ClusterIP)---Pod
 
 
 ## Security Policy
