@@ -12,6 +12,7 @@ Control plane and application-layer certificate renewal (with auto-issuance of I
 - Cert-manager---ClusterIssuer/Issuer
 - Metallb---IPAddressPool---L2Advertisement/bgpAdvertisement
 - Ingress-Nginx---Certificate CRD---Ingress CRD
+
 **Outcome Realization**
 - Web---Ingress-Nginx--Ingress CRD---Service(Cluster)---Pod
 
