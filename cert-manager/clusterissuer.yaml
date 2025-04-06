@@ -1,4 +1,4 @@
-######云厂商自选######
+######Cloud service provider of choice######
 
 apiVersion: cert-manager.io/v1
 kind: ClusterIssuer
