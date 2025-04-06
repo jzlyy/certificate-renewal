@@ -1,11 +1,11 @@
 apiVersion: metallb.io/v1beta1
 kind: L2Advertisement
 metadata:
-  name: metallb-advertie
-  namespace: metallb
+  name: 
+  namespace: metallb-system
 spec:
   ipAddressPools:
-    - metallb-ip
+    - IPAddressPool_NAME
   interfaces:
   - YOUR_INTERFACES
   nodeSelectors:
