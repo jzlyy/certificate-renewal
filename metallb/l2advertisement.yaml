@@ -5,10 +5,7 @@ metadata:
   namespace: metallb-system
 spec:
   ipAddressPools:
-    - IPAddressPool_NAME
+    -                     ##IPAddressPool_NAME
   interfaces:
-  - YOUR_INTERFACES
-  nodeSelectors:
-  - matchLabels:
-      metallb.io/node: ENTRANCE_NODE
+  -                         #YOUR_INTERFACES
 
