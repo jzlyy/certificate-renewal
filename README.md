@@ -16,7 +16,7 @@ MetalLB resources are employed to automatically assign external IP addresses to 
 - Ingress-Nginx---Certificate CRD---Ingress CRD
 
 **Outcome Realization**
-- Web---Ingress-Nginx--Ingress CRD---Service(ClusterIP)---Pod
+- WebServer---Ingress-Nginx--Ingress CRD---Service(ClusterIP)---Pod
 
 
 ## Security Policy
