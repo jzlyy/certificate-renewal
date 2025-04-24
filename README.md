@@ -12,7 +12,7 @@ MetalLB resources are employed to automatically assign external IP addresses to 
 **Hierarchical Planning**
 - Deployment---Service(ClusterIP)
 - Cert-manager---ClusterIssuer/Issuer
-- Metallb---IPAddressPool---L2Advertisement/bgpAdvertisement
+- Metallb---IPAddressPool---L2Advertisement/BGPAdvertisement
 - Ingress-Nginx---Certificate CRD---Ingress CRD
 
 **Outcome Realization**
