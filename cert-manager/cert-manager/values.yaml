@@ -378,10 +378,10 @@ podLabels: {}
 # settings. However, when a Pod's dnsPolicy is set to "None", the dnsConfig field has to be specified.
 # For more information, see [Pod's DNS Config](https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/#pod-dns-config).
 # +docs:property
-# podDnsConfig:
-#   nameservers:
-#     - "1.1.1.1"
-#     - "8.8.8.8"
+podDnsConfig:
+  nameservers:
+    - "1.1.1.1"
+    - "8.8.8.8"
 
 # Optional hostAliases for cert-manager-controller pods. May be useful when performing ACME DNS-01 self checks.
 hostAliases: []
