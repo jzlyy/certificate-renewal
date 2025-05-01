@@ -535,7 +535,7 @@ prometheus:
 
     # Additional labels to add to the ServiceMonitor.
     labels:
-      release: kube-prometheus-stack
+      release: 
 
     # Additional annotations to add to the ServiceMonitor.
     annotations: {}
