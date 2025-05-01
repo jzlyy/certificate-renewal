@@ -1,0 +1,19 @@
+apiVersion: monitoring.coreos.com/v1
+kind: PrometheusRule
+metadata:
+  name: 
+  namespace: cert-manager
+  labels:
+    release: 
+spec:
+  groups:
+  - name: cert-expiry
+    rules:
+    - alert: CertificateExpiringSoon
+      expr: (certmanager_certificate_expiration_timestamp_seconds - time()) / 86400 < 30
+      for: 5m
+      labels:
+        severity: critical
+      annotations:
+        summary: "证书即将过期 (实例 {{ $labels.exported_pod }})"
+        description: "证书 {{ $labels.exported_namespace }}/{{ $labels.exported_name }} 将在30天内过期。"
