@@ -17,9 +17,12 @@ Based on Prometheus + Grafana, implement observable monitoring of certificate va
 - Cert-manager---ClusterIssuer/Issuer
 - Metallb---IPAddressPool---L2Advertisement/BGPAdvertisement
 - Ingress-Nginx---Certificate CRD---Ingress CRD
+- Kube-prometheus-stack---prometheus-webhook-dingtalk
 
 **Outcome Realization**
 - WebServer---Ingress-Nginx--Ingress CRD---Service(ClusterIP)---Pod
+- Certificate CRD---Cert-Manager---ServiceMonitor,PrometheusRule---Prometheus
+- PrometheusRule---Alertmanager---Dingtalk
 
 
 ## Security Policy
