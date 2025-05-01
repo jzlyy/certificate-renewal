@@ -11,36 +11,6 @@ MetalLB resources are employed to automatically assign external IP addresses to 
 ## Prometheus monitors cluster certificates
 Based on Prometheus + Grafana, implement observable monitoring of certificate validity periods for the control plane and application layer within the cluster, seamlessly integrated with Alertmanager + DingTalk to enable rapid alerting responses to DingTalk group chats.
 
-## Prometheus monitors cluster certificates
-Based on Prometheus + Grafana, implement observable monitoring of certificate validity periods for the control plane and application layer within the cluster, seamlessly integrated with Alertmanager + DingTalk to enable rapid alerting responses to DingTalk group chats.
-
-## Prometheus monitors cluster certificates
-Based on Prometheus + Grafana, implement observable monitoring of certificate validity periods for the control plane and application layer within the cluster, seamlessly integrated with Alertmanager + DingTalk to enable rapid alerting responses to DingTalk group chats.
-
-## Prometheus monitors cluster certificates
-Based on Prometheus + Grafana, implement observable monitoring of certificate validity periods for the control plane and application layer within the cluster, seamlessly integrated with Alertmanager + DingTalk to enable rapid alerting responses to DingTalk group chats.
-
-## Prometheus monitors cluster certificates
-Based on Prometheus + Grafana, implement observable monitoring of certificate validity periods for the control plane and application layer within the cluster, seamlessly integrated with Alertmanager + DingTalk to enable rapid alerting responses to DingTalk group chats.
-
-## Prometheus monitors cluster certificates
-Based on Prometheus + Grafana, implement observable monitoring of certificate validity periods for the control plane and application layer within the cluster, seamlessly integrated with Alertmanager + DingTalk to enable rapid alerting responses to DingTalk group chats.
-
-## Prometheus monitors cluster certificates
-Based on Prometheus + Grafana, implement observable monitoring of certificate validity periods for the control plane and application layer within the cluster, seamlessly integrated with Alertmanager + DingTalk to enable rapid alerting responses to DingTalk group chats.
-
-## Prometheus monitors cluster certificates
-Based on Prometheus + Grafana, implement observable monitoring of certificate validity periods for the control plane and application layer within the cluster, seamlessly integrated with Alertmanager + DingTalk to enable rapid alerting responses to DingTalk group chats.
-
-## Prometheus monitors cluster certificates
-Based on Prometheus + Grafana, implement observable monitoring of certificate validity periods for the control plane and application layer within the cluster, seamlessly integrated with Alertmanager + DingTalk to enable rapid alerting responses to DingTalk group chats.
-
-## Prometheus monitors cluster certificates
-Based on Prometheus + Grafana, implement observable monitoring of certificate validity periods for the control plane and application layer within the cluster, seamlessly integrated with Alertmanager + DingTalk to enable rapid alerting responses to DingTalk group chats.
-
-## Prometheus monitors cluster certificates
-Based on Prometheus + Grafana, implement observable monitoring of certificate validity periods for the control plane and application layer within the cluster, seamlessly integrated with Alertmanager + DingTalk to enable rapid alerting responses to DingTalk group chats.
-
 ## Route planning
 **Hierarchical Planning**
 - Deployment---Service(ClusterIP)
