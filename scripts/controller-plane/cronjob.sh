@@ -1,22 +1,22 @@
 #!/bin/bash
 
-# 定义要添加的 Cron 任务
+# Regular Cron job tasks
 CRON_JOB="0 2 1 * * /usr/local/bin/automation.sh >> /var/log/automation.log 2>&1"
 
-# 检查是否已存在相同任务
+# Check if the same task already exists
 if ! (crontab -l 2>/dev/null | grep -qF "$CRON_JOB"); then
-    # 添加任务到临时文件
+    # Add task to temporary file
     (crontab -l 2>/dev/null; echo "$CRON_JOB") | crontab -
-    echo "Cron 任务添加成功！"
+    echo "Cron Task added successfully！"
 else
-    echo "Cron 任务已存在，无需重复添加。"
+    echo "Cron Task already exists, no need to add again。"
 fi
 
-# 创建日志文件（如果不存在）
+# Create log file (if not exists)
 touch /var/log/automation.log
 chmod 644 /var/log/automation.log
 
-# 配置日志轮转（可选）
+# Configure log rotation
 LOG_ROTATE_CONF="/etc/logrotate.d/controller_plane-cert-renew"
 if [ ! -f "${LOG_ROTATE_CONF}" ]; then
     cat > "${LOG_ROTATE_CONF}" <<EOF
@@ -28,8 +28,8 @@ if [ ! -f "${LOG_ROTATE_CONF}" ]; then
     compress
 }
 EOF
-    echo "日志轮转配置已添加。"
+    echo "Log rotation configuration added"
 fi
 
-echo "操作完成！"
+echo "Operation completed！"
 
