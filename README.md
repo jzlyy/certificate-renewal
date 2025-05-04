@@ -24,6 +24,8 @@ Based on Prometheus + Grafana, implement observable monitoring of certificate va
 - Certificate CRD---Cert-Manager---ServiceMonitor,PrometheusRule---Prometheus
 - PrometheusRule---Alertmanager---Dingtalk
 
+## Start
+The team can refer to my code solution and make reasonable modifications based on specific environmental requirements.
 
 ## Security Policy
 To report security vulnerabilities, please see [SECURITY.md](SECURITY.md)
